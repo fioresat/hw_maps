@@ -8,7 +8,7 @@ import io.flutter.plugins.GeneratedPluginRegistrant
 
 class MainActivity: FlutterActivity() {
     override fun configureFlutterEngine(@NonNull flutterEngine: FlutterEngine) {
-        MapKitFactory.setApiKey("66e1307c-dfb5-4ca7-afc7-ee5958bdef48")
+        MapKitFactory.setApiKey("YOUR_MAPKIT_KEY")
         super.configureFlutterEngine(flutterEngine)
     }
 }
